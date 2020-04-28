@@ -1,10 +1,10 @@
 # Code pattern
 
-- [ ]  Instalar VSCode
-- [ ]  Instalar NodeJS 12.x
-- [ ]  Instalar yarn (opcional)
-- [ ]  Instalar extensão ESLint no vscode
-- [ ]  Instalar extensão Editor Config no vscode
+- [ ]  Instalar [VSCode](https://code.visualstudio.com/download "download VSCode")
+- [ ]  Instalar [NodeJS](https://nodejs.org/en/ "NodeJS download") 12.x
+- [ ]  Instalar [yarn](https://yarnpkg.com/getting-started/install "Gloabal Install") (opcional)
+- [ ]  Instalar extensão [ESLint](#eslint-extension) no vscode
+- [ ]  Instalar extensão [EditorConfig](#editorconfig-extension) no vscode
 
 # Iniciar projeto (node ou react)
 
@@ -38,23 +38,23 @@ yarn add eslint -D
 yarn eslint --init
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-15-58.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-15-58.png)
+![Imgur](https://i.imgur.com/7aAvm8g.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-02.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-02.png)
+![Imgur](https://i.imgur.com/23Pvj4f.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-07.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-07.png)
+![Imgur](https://i.imgur.com/8OPHK0u.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-11.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-11.png)
+![Imgur](https://i.imgur.com/A2lEfjf.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-19.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-19.png)
+![Imgur](https://i.imgur.com/5BWR6sl.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-23.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-23.png)
+![Imgur](https://i.imgur.com/bbabVOv.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-27.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-27.png)
+![Imgur](https://i.imgur.com/nAYw0u5.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-31.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-31.png)
+![Imgur](https://i.imgur.com/qcK5Cu8.png)
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-37.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-16-37.png)
+![Imgur](https://i.imgur.com/uvKePlB.png)
 
 Instale as dependencias necessárias utilizando o gerenciador de pacotes de sua escolha, se estiver utilizando o npm pode marcar com "y" a ultima pergunta e a instalação seguirá, ou se for como o meu caso copiei as dependencias e instale retirando os ">=" e substituindo por "^"
 
@@ -63,6 +63,7 @@ Exemplo:
 ```bash
 yarn add -D eslint-config-standard@latest eslint@^6.2.2 eslint-plugin-import@^2.18.0 eslint-plugin-node@^9.1.0 eslint-plugin-promise@^4.2.1 eslint-plugin-standard@^4.0.0
 ```
+![Imgur](https://i.imgur.com/6J8uldp.png)
 
 ### Instalar Prettier:
 
@@ -74,7 +75,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-19-04.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-19-04.png)
+![Imgur](https://i.imgur.com/2O3eLD1.png)
 
 ```json
 "extends": [
@@ -92,16 +93,16 @@ npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
             "semi": false,
             "trailingComma": "all",
             "arrowParens": "avoid"
-        }  
+        }
     ]
 }
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-20-10.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-20-10.png)
+![Imgur](https://i.imgur.com/XTiQF2Y.png)
 
 ### Configurar o editorconfig para evitar incompatibilidade de formatação
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-20-28.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-20-28.png)
+![Imgur](https://i.imgur.com/NFFj60F.png)
 
 ```json
 root = true
@@ -115,4 +116,8 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-21-02.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-21-02.png)
+![Imgur](https://i.imgur.com/q4TP7kO.png)
+
+# eslint-extension
+
+# editorconfig-extension
