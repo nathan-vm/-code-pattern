@@ -18,7 +18,7 @@ npm --init
 yarn --init
 ```
 
-![Imgur](https://imgur.com/tq1h9ck)
+![Imgur](https://i.imgur.com/tq1h9ck.png)
 
 ### Instalar eslint no projeto
 
