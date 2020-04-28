@@ -18,7 +18,7 @@ npm --init
 yarn --init
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-14-26.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-14-26.png)
+![Imgur](https://imgur.com/tq1h9ck)
 
 ### Instalar eslint no projeto
 
@@ -30,7 +30,7 @@ npm install eslint --save-dev
 yarn add eslint -D
 ```
 
-![Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-15-32.png](Tutorial%20ESLint%20Prettier/Captura_de_tela_de_2020-04-28_18-15-32.png)
+![Imgur](https://imgur.com/ZqAHf3v)
 
 ### Configurar ESLint
 
