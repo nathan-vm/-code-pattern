@@ -10,6 +10,8 @@
 
 ###### Para abrir o terminal dentro do VSCode clique em View -> Terminal ou teclas de atalho (Ctrl Shift `)
 
+#### PARA ESSE TUTORIAL UTILIZE NPM _OU_ YARN
+
 
 # Iniciar projeto (node ou react)
 
