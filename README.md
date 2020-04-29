@@ -2,9 +2,14 @@
 
 - [ ]  Instalar [VSCode](https://code.visualstudio.com/download "download VSCode")
 - [ ]  Instalar [NodeJS](https://nodejs.org/en/ "NodeJS download") 12.x
-- [ ]  Instalar [yarn](https://yarnpkg.com/getting-started/install "Gloabal Install") (opcional)
+- [ ]  Instalar [yarn](https://yarnpkg.com/getting-started/install "Gloabal Install") (opcional recomendado)
 - [ ]  Instalar extensão [ESLint](#eslint-extension) no vscode
 - [ ]  Instalar extensão [EditorConfig](#editorconfig-extension) no vscode
+- [ ]  [Configure](#Configurações-do-VSCode) o VSCode !!!
+
+
+###### Para abrir o terminal dentro do VSCode clique em View -> Terminal ou teclas de atalho (Ctrl Shift `)
+
 
 # Iniciar projeto (node ou react)
 
@@ -117,6 +122,47 @@ insert_final_newline = true
 ```
 
 ![Imgur](https://i.imgur.com/q4TP7kO.png)
+
+
+
+# Configurações-do-VSCode
+
+###### Clique em Files -> Preferences -> settings e em seguida busque pelo icone demonstrado na imagem abaixo
+
+![Imgur](https://i.imgur.com/0qRm1J3.png)
+
+Em seguida adicione as seguintes configurações :
+```
+    "[javascript]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[javascriptreact]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescript]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescriptreact]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+
+    "files.associations": {
+      ".sequelizerc":"javascript",
+      ".stylelintrc":"json",
+      ".prettierrc":"json",
+    }
+```
+
+![Imgur](https://i.imgur.com/iMR9sA9.png)
+
 
 # eslint-extension
 Na barra lateral esquerda do VSCode clique no icone de extensões e busque por ESlint
