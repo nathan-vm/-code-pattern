@@ -119,5 +119,8 @@ insert_final_newline = true
 ![Imgur](https://i.imgur.com/q4TP7kO.png)
 
 # eslint-extension
-
+Na barra lateral esquerda do VSCode clique no icone de extensões e busque por ESlint
+![Imgur](https://i.imgur.com/QhRhfbi.png)
 # editorconfig-extension
+Na barra lateral esquerda do VSCode clique no icone de extensões e busque por EditorConfig
+![Imgur](https://i.imgur.com/tEBplch.png)
