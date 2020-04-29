@@ -61,7 +61,7 @@ yarn eslint --init
 
 ![Imgur](https://i.imgur.com/uvKePlB.png)
 
-Instale as dependencias necessárias utilizando o gerenciador de pacotes de sua escolha, se estiver utilizando o npm pode marcar com "y" a ultima pergunta e a instalação seguirá, ou se for como o meu caso copiei as dependencias e instale retirando os ">=" e substituindo por "^"
+Instale as dependencias necessárias utilizando o [gerenciador de pacotes](https://pt.wikipedia.org/wiki/Sistema_gestor_de_pacotes "O que é um gerenciador de pacotes?") de sua escolha, se estiver utilizando o npm pode marcar com "y" a ultima pergunta e a instalação seguirá, ou se for como o meu caso copiei as dependencias e instale retirando os ">=" e substituindo por "^"
 
 Exemplo:
 
