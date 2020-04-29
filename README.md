@@ -30,7 +30,7 @@ npm install eslint --save-dev
 yarn add eslint -D
 ```
 
-![Imgur](https://imgur.com/ZqAHf3v)
+![Imgur](https://i.imgur.com/ZqAHf3v.png)
 
 ### Configurar ESLint
 
