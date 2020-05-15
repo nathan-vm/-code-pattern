@@ -175,7 +175,9 @@ Na barra lateral esquerda do VSCode clique no icone de extensões e busque por E
 ![Imgur](https://i.imgur.com/tEBplch.png)
 # Instalacao-yarn
 **Para instalar o yarn rode o seguinte comando no seu terminal** *necessário node 12.x*
+
 ``` npm install -g yarn ```
 
 verifique a versão instalada: (deverá ver algo como "1.22.0")
+
 ``` yarn --version ```
