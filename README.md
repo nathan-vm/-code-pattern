@@ -136,6 +136,23 @@ insert_final_newline = true
 
 Em seguida adicione as seguintes configurações :
 ```
+{
+    //Regras gerais de produtividade
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false,
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": true,
+
+
+    //ESLINT E PRETTIER:
     "[javascript]":{
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
@@ -161,7 +178,19 @@ Em seguida adicione as seguintes configurações :
       ".sequelizerc":"javascript",
       ".stylelintrc":"json",
       ".prettierrc":"json",
-    }
+    },
+
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [
+      80,
+      120
+    ],
+
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight":"gutter",
+    // git add e commit automatico
+    "git.enableSmartCommit": true,
+  }
 ```
 
 ![Imgur](https://i.imgur.com/iMR9sA9.png)
