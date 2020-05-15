@@ -1,8 +1,9 @@
-# Code pattern
+# Configuração de ambiente
 
 - [ ]  Instalar [VSCode](https://code.visualstudio.com/download "download VSCode")
-- [ ]  Instalar [NodeJS](https://nodejs.org/en/ "NodeJS download") 12.x
-- [ ]  Instalar [yarn](https://yarnpkg.com/getting-started/install "Gloabal Install") (opcional recomendado)
+- [ ]  Instalar [Insomnia](https://insomnia.rest/download/core/?&ref=https%3A%2F%2Fwww.google.com%2F "download Insomnia")
+- [ ]  Instalar [NodeJS](https://trello.com/c/6cAAlipY/74-instalando-o-nodejs "NodeJS download") 12.x
+- [ ]  Instalar [yarn](#Instalacao-yarn "Download Yanr") (opcional recomendado)
 - [ ]  Instalar extensão [ESLint](#eslint-extension) no vscode
 - [ ]  Instalar extensão [EditorConfig](#editorconfig-extension) no vscode
 - [ ]  [Configure](#Configurações-do-VSCode) o VSCode !!!
@@ -172,3 +173,9 @@ Na barra lateral esquerda do VSCode clique no icone de extensões e busque por E
 # editorconfig-extension
 Na barra lateral esquerda do VSCode clique no icone de extensões e busque por EditorConfig
 ![Imgur](https://i.imgur.com/tEBplch.png)
+# Instalacao-yarn
+**Para instalar o yarn rode o seguinte comando no seu terminal** *necessário node 12.x*
+``` npm install -g yarn ```
+
+verifique a versão instalada: (deverá ver algo como "1.22.0")
+``` yarn --version ```
